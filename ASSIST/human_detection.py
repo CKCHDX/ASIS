@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Load YOLOv7-tiny model with the configuration and weights
-net = cv2.dnn.readNetFromDarknet('yolov7-tiny.cfg', 'yolov7-tiny.weights')
+net = cv2.dnn.readNetFromDarknet('ASSIST.cfg', 'ASSIST.weights')
 
 # Load the COCO class labels (80 classes including 'person')
 with open('coco.names', 'r') as f:
