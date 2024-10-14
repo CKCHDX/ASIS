@@ -1,3 +1,5 @@
+ASSIST | Artificial Safety Security Intelligence Systems Technology
+
 The ASSIST system is a real-time security surveillance solution designed to detect various threats and enhance safety. It integrates multiple advanced detection techniques, which work together to provide comprehensive monitoring. Here's an overview of its main components:
 
 1. Face Detection: The system uses a pre-trained model to detect faces in the video feed. It converts each frame to grayscale and identifies faces using the Haar Cascade algorithm. When a face is detected, it draws a box around the person’s face, making it easy to track individuals of interest.
