@@ -5,7 +5,7 @@ The ASSIST system is a real-time security surveillance solution designed to dete
 1. Face Detection: The system uses a pre-trained model to detect faces in the video feed. It converts each frame to grayscale and identifies faces using the Haar Cascade algorithm. When a face is detected, it draws a box around the person’s face, making it easy to track individuals of interest.
 
 
-2. Hostile Object Detection: The system is equipped to identify dangerous objects like knives and guns. Using a deep learning model (YOLOv7-tiny) together with our own custom model (ASSIST-CCC), it analyzes frames from the video to find objects that match these categories. Once a weapon is detected, the system highlights it with a red bounding box, alerting security personnel to a potential threat.
+2. Hostile Object Detection: The system is equipped to identify dangerous objects like knives and guns. Using a deep learning model (YOLOv7-tiny) together with our own custom model (ASSIST-VCD), it analyzes frames from the video to find objects that match these categories. Once a weapon is detected, the system highlights it with a red bounding box, alerting security personnel to a potential threat.
 
 
 3. Human Detection: To monitor the presence of people in the area, the system uses another YOLOv7-tiny model, which is specifically trained to detect humans. It identifies individuals in the video and outlines them with a box, helping the system keep track of everyone within the monitored space.
